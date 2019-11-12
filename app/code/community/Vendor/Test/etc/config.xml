@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Vendor_Test>
+            <version>1.0.0</version>
+        </Vendor_Test>
+    </modules>
+
+
+    <global>
+
+        <models>
+            <testrestapi>
+                <class>Vendor_Test_Model</class>
+            </testrestapi>
+        </models>
+
+        <resources>
+            <vendortest_setup>
+                <setup>
+                    <module>Vendor_Test</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+            </vendortest_setup>
+        </resources>
+    </global>
+
+</config>

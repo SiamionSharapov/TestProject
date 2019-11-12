@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<config>
+
+    <api2>
+        <resource_groups>
+            <testrestapi translate="title" module="Vendor_Test">
+                <title>testrestapi</title>
+                <sort_order>10</sort_order>
+            </testrestapi>
+        </resource_groups>
+
+        <resources>
+            <testrestapi translate="title" module="Vendor_Test">
+                <group>testrestapi</group>
+                <model>testrestapi/api2_product</model>
+                <title>testrest</title>
+                <sort_order>10</sort_order>
+                <privileges>
+                    <guest>
+                        <retrieve>1</retrieve>
+                    </guest>
+                </privileges>
+                <attributes translate="" module="Vendor_Test">
+                </attributes>
+
+                <routes>
+                    <route_entity>
+                        <route>/testrestapi/product/:id/value/:value/</route>
+                        <action_type>entity</action_type>
+                    </route_entity>
+                </routes>
+                <versions>1</versions>
+            </testrestapi>
+        </resources>
+    </api2>
+</config>

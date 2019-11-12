@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+Test Module
+-->
+<config>
+    <modules>
+        <Vendor_Test>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Vendor_Test>
+    </modules>
+</config>
