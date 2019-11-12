@@ -7,6 +7,17 @@
         </Vendor_Test>
     </modules>
 
+    <frontend>
+    <routers>
+        <vendor>
+            <use>standard</use>
+            <args>
+                <module>Vendor_Test</module>
+                <frontName>simontest</frontName>
+            </args>
+        </vendor>
+    </routers>
+    </frontend>
 
     <global>
 
